@@ -1,31 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<head>
+  <title>My Personal Website</title>
   <style>
-    * {
-      outline: Black dashed 10px;
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      text-align: center;
+      padding: 0;
+      background-color: #f0f0f02d;
+      background-image: url("/1000_F_288623293_iDK3bYl6ZMUUwQ7MhlqLynWg3LkuespD.jpg");
     }
-
+    header {
+      background-color: #7c1a1a;
+      color: #ac3d21;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    main {
+      margin: 20px;
+    }
     p {
-      color: rgba(94, 4, 4, 0.661);
+      line-height: 1.5;
     }
-
-    .selection {
-      color: red;
-    }
-
-    #idtag {
-      color: lightblue;
+    footer {
+      background-color: #790e0e;
+      color: #ffffff;
+      padding: 10px;
+      text-align: center;
     }
   </style>
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Leyanna's Journey</Menu></title>
-  </head>
-  <body>
+</head>
+<body>
+  <header>
     <h1>Leyanna Shackles</h1>
-    <img src="./IMG_2231.JPG" width="25%" />
-    <p>Hello my name is Leyanna Shackles. I am an intern at i.c.stars.</p>
-  </body>
+  </header>
+
+  <main>
+    <h2>About Me</h2>
+    <p>
+     HI, My name is Leyanna Shackles. I am an intern at i.c.stars. I aspire to become a cybersecurity analyst, but I am open to all opportunities as I expand my knowledge in IT.
+    </p>
+    <div> 
+      <img
+      src="./IMG_2231.JPG"
+      alt="This is an Html img"
+      width="25%"
+      />
+      </div>
+      <br  />
+    <h2>Portfolio</h2>
+    <p>
+      Here are some projects I've worked on:
+      <ul>
+        <li>Project 1 - <a href="https://github.com/">Link to Project 1</a></li>
+        <li>Project 2 - <a href="#">Link to Project 2</a></li>
+        <li>Project 3 - <a href="#">Link to Project 3</a></li>
+      </ul>
+    </p>
+
+    <h2>Contact Me</h2>
+    <p>
+      You can reach me via email at <a href="mailto:lshackles@icstar.org">lshackles@icstars.org</a> or connect with me on <a href="https://www.linkedin.com/in/leyanna-shackles-72926627b/">LinkedIn</a>.
+    </p>
+  </main>
+
+  <footer>
+    &copy; 2023 Leyanna Shackles. All rights reserved.
+  </footer>
+  <script src="/index.js "></script>
+</body>
 </html>
